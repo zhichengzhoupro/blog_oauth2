@@ -103,11 +103,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: https://dev-714908.okta.com/oauth2/default
         registration:
           oidc:
-            client-id: web_app
-            client-secret: web_app
+            client-id: 0oazmw85mxJaDGUjC4x6
+            client-secret: Sh5i7dR6sFaDE0mZVnKkor94DMrOeJtmKWs00RD2
 
 server:
   servlet:
